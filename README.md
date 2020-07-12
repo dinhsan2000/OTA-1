@@ -25,11 +25,11 @@
 ### device_codename.json ###
 | Param | Description | Required |
 |--|--|--|
-| id | Build file (.zip)  hash | Yes |
+| id | Build file (.zip)  hash | Yes |(sha256sum Rom.zip)
 | filename | Build file (.zip) name | Yes |
-| datetime | Build file (.zip) time | Yes |
+| datetime | Build file (.zip) time | Yes |(date +%s)
 | version | ion version | Yes |         
-| filesize | Build file (.zip) size (in bytes) | Yes |
+| filesize | Build file (.zip) size (in bytes) | Yes |(wc -c Rom.zip)
 | file url | Build file url | Yes |
 | filehash | Build file (.zip) md5 hash | Yes |
 | website_url | https://sourceforge.net/projects/cherish-os/files/device | Yes |
