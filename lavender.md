@@ -1,4 +1,4 @@
-^cherish
+^Cherish
 Cherish OS v1.4 Changelog 12-07-2020:
 
 • Added Clear Spring Theme
