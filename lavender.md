@@ -1,21 +1,15 @@
 ^cherish
-CherishOS-v1.2
+Cherish OS v1.4 Changelog 12-07-2020:
 
- Changelog:
-• Merged May Security Patch
-• Added option to show battery percent & estimate
-• Added ringtone audio focus customizable
-• Merged May Security Patch
-• Removed Face unlock
-• Added some icon in Cherish Settings
-• Added gradient color
-• Added some custom clock
-• Added Quick Settings Pulldown options
-• Added Disable Quick Settings on secure lockscreen
-• Added WPS implementation
-• Added Slim Recents
-• Updated gapps from pixel 
-• Added Smart Charging
-• Added many themes
+• Added Clear Spring Theme
+• Improved Screenrecord
+• Added support for per app network isolation
+• Added battery health
+• Added cpu set for audio app
+• Added Hide below VolumePanel
+• Added Extended Audio Panel 
+• Fixed inactive state Wifi Icon in Circular & Filled Icon Pack 
+• Bringed back on/off toggle for physical SIMs
+• Added MIUI Volume slider expanded
+• Improved system performance
 • Other fixes and improvements
-
