@@ -21,21 +21,36 @@
 }
 
 ```
-
 ### device_codename.json ###
 | Param | Description | Required |
-|--|--|--|
-| id | Build file (.zip)  hash | Yes |(sha256sum Rom.zip)
-| filename | Build file (.zip) name | Yes |
-| datetime | Build file (.zip) time | Yes |(date +%s)
-| version | ion version | Yes |         
-| filesize | Build file (.zip) size (in bytes) | Yes |(wc -c Rom.zip)
-| file url | Build file url | Yes |
-| filehash | Build file (.zip) md5 hash | Yes |
-| website_url | https://sourceforge.net/projects/cherish-os/files/device | Yes |
-| news_url | https://t.me/CherishOS | Yes |
-| maintainer | your name | Yes |
-| forum_url | XDA Thread | Yes |
+### See ###
+Before you compile a build, you need to type this into your terminal:
+```bash
+date +%s
+```
+It will generate a number, it is used in your "json" file in the local datetime.
+
+datetime = number generate
+
+filename = Name file zip rom
+
+id = sha256sum
+
+filehash = Build file (.zip) md5 hash
+
+version = Cherish version 
+
+size = Build file (.zip) size (in bytes) (use terminal wc -c Rom.zip)
+
+url = Direct link for download
+
+website_url = https://sourceforge.net/projects/cherish-os/files/device
+
+news_url = https://t.me/CherishOS
+
+maintainer = your name
+
+forum_url  = XDA Thread 
 
 ### device_codename.md template ###
 ```bash
