@@ -1,7 +1,5 @@
 ^Cherish 
-CherishOS v1.6 
-
-Changelog 18-08-2020:
+Cherish OS v1.6 Changelog 18-08-2020:
 
 • Added QS header styles
 • Added statusbar brightness control 
